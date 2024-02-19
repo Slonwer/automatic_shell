@@ -1,46 +1,62 @@
-Backup Script 
 
-Este é um script em Bash para criar backups de um diretório de origem para um diretório de destino. Ele compacta o diretório de origem em um arquivo .tar.gz com a data atual e o move para o diretório de destino especificado.
-Como usar
+[![LinkedIn][linkedin-shield]][linkedin-url]
+![GitHub forks](https://img.shields.io/github/forks/oliveiradeflavio/scripts-linux?style=for-the-badge)
+![GitHub User's stars](https://img.shields.io/github/stars/oliveiradeflavio?style=for-the-badge)
+![GitHub followers](https://img.shields.io/github/followers/oliveiradeflavio?style=for-the-badge)
 
-    Configuração: No início do script, você pode definir o diretório de origem e destino conforme necessário:
 
-    bash
+<h3 align="center">AUTOMATIZANDO ALGUMAS TAREFAS</h3>
 
-diretorio_origem="/caminho/do/diretorio/de/origem/"
-diretorio_destino="/caminho/do/diretorio/de/destino/"
 
-Certifique-se de definir esses diretórios de acordo com sua estrutura de pastas.
+<!-- ABOUT THE PROJECT -->
+## Sobre o Projeto
+Aqui se concentra alguns scripts para Debian, Ubuntu, Linux Mint entre outros. Você saberá o que cada script faz pelo seu próprio nome. Algumas automações foram sugestões que foram enviadas por usuários e inscritos no meu canal no Youtube. Caso tenha curiosidade, acesse: http://youtube.com/flaviodicas
 
-Execução: Para executar o script, simplesmente execute-o em um terminal:
 
-bash
+### Construído com
 
-    ./backup_script.sh
+* [Shell Scripting](https://pt.wikipedia.org/wiki/Shell_script)
 
-    Certifique-se de ter permissões de execução no script (chmod +x backup_script.sh) e de estar no diretório onde o script está localizado.
 
-    Verificação: Após a execução, o script mostrará uma mensagem indicando se o backup foi bem-sucedido ou se ocorreu algum erro.
+<!-- GETTING STARTED -->
+## Começando
 
-Funcionamento
+Inicialmente o script tem combatibilidade com o Ubuntu versão 14.04 32 e 64 bits, 16.04 32 e 64 bits e com o Linux Mint 18.1 32 e 64 bits.
 
-    Verificação do Diretório de Destino: O script verifica se o diretório de destino especificado existe. Se não existir, o script o criará.
+Modo de usar:
+Dê permissão de execução ao arquivo:
+```sh
+    otimizasistema.sh = tentará deixar o seu sistema mais rápido
+    limpeza.sh = limpará arquivos que não está sendo utilizados (cache de Terminal, etc)
+```
 
-    Nome do Arquivo de Backup: O script gera um nome de arquivo de backup com a data atual no formato backup_YYYY-MM-DD.tar.gz.
+Execute como root: 
+```sh
+    #./nomedoarquivo.sh ou 
+    $sudo ./nomedoarquivo.sh
+```
 
-    Execução do Backup: Utilizando o comando tar, o script cria um arquivo .tar.gz contendo o conteúdo do diretório de origem e o move para o diretório de destino.
 
-    Verificação do Sucesso do Backup: O script verifica o código de saída do comando tar. Se for zero, indica que o backup foi bem-sucedido e exibe uma mensagem de sucesso. Caso contrário, exibe uma mensagem de erro.
+### Pré-requisitos
 
-Notas
+ Ubuntu versão 14.04 32 e 64 bits, 16.04 32 e 64 bits e com o Linux Mint 18.1 32 e 64 bits.
 
-    Certifique-se de ter permissões adequadas para acessar e executar os diretórios e arquivos relevantes.
-    Este script não realiza a rotina de agendamento de backups. Você pode configurar tarefas de agendamento no sistema operacional para executar este script periodicamente, se necessário.
+<!-- ROADMAP -->
+## Roadmap
 
-Autor
+Veja os [problemas abertos] (https://github.com/oliveiradeflavio/scripts-linux/issues) para uma lista de recursos propostos (e problemas conhecidos).
 
-Criado por [Slonwer] - 
 
-Se você tiver alguma dúvida, sugestão ou encontrar algum problema, não hesite em entrar em contato.
+<!-- CONTACT -->
+## Contato
 
-Última atualização: [13/02/2024]
+Flávio Oliveira - [LinkedIn](https://www.linkedin.com/in/fladoliveira/)
+
+Link do Repositório: [https://github.com/oliveiradeflavio/scripts-linux](https://github.com/oliveiradeflavio/scripts-linux)
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/fladoliveira/
