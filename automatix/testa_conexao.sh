@@ -1,14 +1,6 @@
 #!/bin/bash
 #	02/12/2015
-#	script tem o intuito de fazer um teste de conexão
-#	seja através de um site ou IP.
-#
-#	Flávio Oliveira (Flávio Dicas)
-#	oliveiradeflavio@gmail.com
-#	http://youtube.com/flaviodicas
-#	http://flaviodeoliveira.com.br
-#	https://github.com/oliveiradeflavio
-
+#	
 #	função principal onde será executado o teste de conexão
 testconnection()
 {
